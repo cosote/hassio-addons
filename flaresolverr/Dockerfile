@@ -16,7 +16,7 @@
 ARG BUILD_FROM
 ARG BUILD_VERSION
 #FROM flaresolverr/flaresolverr:latest
-FROM 21hsmw/flaresolverr:nodrivertest
+FROM alexfozor/flaresolverr:pr-1300-experimental
 
 ##################
 # 2 Modify Image #
