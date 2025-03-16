@@ -16,6 +16,7 @@
 ARG BUILD_FROM
 ARG BUILD_VERSION
 #FROM flaresolverr/flaresolverr:latest
+#testing https://github.com/FlareSolverr/FlareSolverr/pull/1300
 FROM alexfozor/flaresolverr:pr-1300-experimental
 
 ##################
