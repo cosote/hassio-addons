@@ -8,4 +8,5 @@ bashio::log.warning "Warning - minimum configuration recommended : 2 cpu cores a
 # LAUNCH APP #
 ##############
 pip install -r /app/requirements.txt --break-system-packages
+pip install legacy-cgi --break-system-packages
 python -u /app/flaresolverr.py
